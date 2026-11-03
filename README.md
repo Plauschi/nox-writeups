@@ -8,6 +8,7 @@ These are not papers. They are engineering case studies written to the standard 
 |---|---|
 | [Onboarding an Untrusted Agent Binary](w1-untrusted-agent-binary.md) | AI control in practice: enforcing — not requesting — constraints on a third-party agent binary (xAI's Grok CLI); four classes of executed false-greens caught by adversarial model-vs-model review |
 | [Falsifying Our Own Memory Architecture](w2-memory-arena.md) | A small preregistered eval (n=59) of memory-governance machinery, including a budget confound that inverted the result and a self-bias objection tested with a third-party judge |
+| [NOX](front.md) | The shop window: who does what, and the only exhibits that already have a public text |
 | [The lab behind the writeups](lab.md) | The rough structure a third party needs: who decides, what the two texts are slices of, and what is deliberately not here |
 
 ## Transparency
