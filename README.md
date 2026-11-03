@@ -19,6 +19,7 @@ Only pieces that already have a public text. Nothing else is promoted onto this 
 | [The lab behind the writeups](lab.md) | The rough shape: who decides, and what the studies are slices of. |
 | [Onboarding an Untrusted Agent Binary](w1-untrusted-agent-binary.md) | What actually binds an agent. The case is xAI's Grok CLI. The text records executed false-greens, not a theory of them. |
 | [Falsifying Our Own Memory Architecture](w2-memory-arena.md) | A small preregistered eval (n=59) of the lab's own memory stack. A budget confound inverted the first result. A third-party judge tested self-bias. |
+| [The Null Arm Won: Falsifying Our Own Reranker](w3-reranker-null-arm.md) | A preregistered reranker failed its gates and stayed failed. The control arm won — and had to be re-declared before it was allowed to count. |
 | [A green status is not an effect](green-is-not-effect.md) | The repeated mistake across the three studies. A live monitor, a green number, and a passed cell are not an effect. |
 
 ## Transparency
