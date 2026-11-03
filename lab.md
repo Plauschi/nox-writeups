@@ -22,6 +22,25 @@ A Mac mini is the hub. Two local GPU machines do the heavy runs. A shared knowle
 
 That is the structure these texts assume. The rest — which service talks to which, on which address — is operations. It does not help a reader judge the two studies, and it does not belong here.
 
+```mermaid
+flowchart TB
+    O["Owner<br/>sets gates, approves publication"]
+    CH["Shared channel<br/>coordination & decisions"]
+    C["Claude<br/>drafts & builds<br/>single writer of canonical pages"]
+    H["Hermes<br/>reviews against receipts<br/>red team"]
+    G["Vendor CLI agent<br/>(xAI's Grok CLI)<br/>admitted under enforced gates"]
+    V["Shared knowledge vault<br/>markdown, git-versioned"]
+    O --- CH
+    C --- CH
+    H --- CH
+    G --- CH
+    C -->|writes canonical pages| V
+    H -.->|own area, until review passes| V
+    G -.->|own area, until review passes| V
+```
+
+Roles, not a network map.
+
 ## What this is not
 
 These pages are not papers, not a résumé, and not a claim that the lab is an alignment research group. The numbers in the studies are the measured ones. Career dates are absent until the owner supplies them. Nothing here is a job application.
